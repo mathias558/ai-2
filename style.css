@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Urbanist:wght@100&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: inter;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #5350F6 2.42%, #E662FE 104.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Urbanist;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .getstarted {
+    display: flex;
+    background-clip: text;
+    background-color: #4F4CE5;
+    padding: 16px 0px;
+    border-radius: 50px;
+  }
+
+  .title {
+    background: black;
+    text-align: center;
+
+    align-self: stretch;
+    line-height: 24px;
+    color: #FF3BFF;
+    padding-top: 30px;
+    font-family: Urbanist;
+  }
+
+  h1 {
+    background: linear-gradient(90deg, #5350F6 24.42%, #E662FE 73.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 88px;
+  }
+
+  .branding {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    gap: 150px;
+    padding: 80px 0px;
+  }
+
+  h2 {
+    background: linear-gradient(90deg, #5350F6 24.42%, #E662FE 73.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 88px;
+  }
+  
+  h3 {
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  h4 {
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .titlecopy {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 16px;
+    align-items: center;
+  
+  }
+
+  .titlecopybox {
+    width: 50%;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    background: #181924;
+    font-size: 16px;
+    font-family: Urbanist;
+  }
+
+  .copy-box-section{
+    display: flex;
+    padding: 80px 40px;
+  }
+  
+  .branding-section{
+    gap: 40px;
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .branding-reverse {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 0px ;
+    flex-direction: row-reverse;
+  }
+
+  .branding-section-reverse{
+    gap: 40px;
+    margin: 0px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .solid{
+    border-bottom: 0.5px #4F4CE5;
+    border-radius: 0.5px;
+    border-style: solid;
+    width: 37vw;
+  }
+
+  .balls {
+    width: 685.174px;
+    height: 621.581px;
+  }
+
+
+
+
+
+
+  
